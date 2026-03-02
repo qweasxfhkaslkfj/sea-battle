@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sea Battle</title>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="header">
+            <div id="title">Sea Battle</div>
+            <div id="rules">
+                <p>1. Нажимайте на Space для выстрела</p>
+                <p>2. Старайтесь попасть в корабль противника</p>
+                <p>3. Уничтожте пиратский корабль!</p>
+            </div>
+        </div>
+        <div id="game">
+            <div id="bullet" class="bullet" style="display: none"></div>
+
+            <div id="player_hp">Игрок: 3 ❤️</div>
+            <div id="enemy_hp">Враг: 3 ❤️</div>
+
+            <div id="player_ship" class="ship"></div>
+            <div id="enemy_ship" class="ship"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
